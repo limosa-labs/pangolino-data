@@ -1,0 +1,73 @@
+Pangolino language data: third-party notices
+============================================
+
+The files under each version folder are compiled from the sources below by Pangolino's build
+tools. Changes made: the sources are parsed, filtered and converted into Pangolino's binary
+formats, then gzipped. No word list or rule is otherwise edited. Source links and jar checksums
+are in README.md; licence texts are in licenses/.
+
+Which artifact holds which source
+---------------------------------
+  en/tagger.bin, en/synth.bin       english-pos-dict (LGPL 2.1), LanguageTool word lists
+  en/speller.bin                    english-pos-dict en_US and en_GB spelling dictionaries
+                                    (SCOWL), LanguageTool spelling lists
+  en/chunker.bin                    Apache OpenNLP 1.5 models (Apache 2.0)
+  de/tagger.bin, de/synth.bin       german-pos-dict (CC BY-SA 4.0), LanguageTool word lists
+  de/speller.bin                    German Hunspell de_DE (GPL 2 or 3), jWordSplitter word list
+                                    (Apache 2.0), LanguageTool spelling lists
+  de/analysis.bin                   LanguageTool data, jWordSplitter word list and exception
+                                    splits (Apache 2.0)
+  every other file                  LanguageTool data (LGPL 2.1 or later)
+
+LanguageTool 6.8
+----------------
+Source:   https://github.com/languagetool-org/languagetool (tag v6.8)
+License:  GNU Lesser General Public License 2.1 or later (licenses/LGPL-2.1.txt)
+Copyright (C) Daniel Naber and the LanguageTool contributors.
+Used: grammar, style and disambiguation rules, segment.srx, word lists, spelling lists and message
+bundles of languagetool-core and the en and de modules.
+
+English part-of-speech and spelling dictionaries (org.languagetool:english-pos-dict 0.6)
+----------------------------------------------------------------------------------------
+Source:   https://github.com/languagetool-org/english-pos-dict
+License:  GNU Lesser General Public License 2.1 (licenses/LGPL-2.1.txt)
+The spelling dictionaries are built from SCOWL (http://wordlist.aspell.net/), Copyright 2000-2018
+by Kevin Atkinson and the further copyright holders named in its README; their notices are in
+licenses/dictionaries/en_US_SCOWL_README.txt and en_GB_SCOWL_README.txt. The part-of-speech data
+draws on Moby Part-of-Speech II, WordNet 1.6 (Copyright 1997 by Princeton University), AGID
+(Copyright 2000-2003 by Kevin Atkinson) and 12dicts; their notices are in
+licenses/dictionaries/english-pos-readme.txt, english-agid-readme.txt and
+english-12dicts-readme.html.
+
+German part-of-speech dictionary (de.danielnaber:german-pos-dict 1.2.4)
+-----------------------------------------------------------------------
+Source:   https://github.com/languagetool-org/german-pos-dict
+License:  Creative Commons Attribution-ShareAlike 4.0 International (licenses/CC-BY-SA-4.0.txt,
+          https://creativecommons.org/licenses/by-sa/4.0/)
+Based on Morphy by Wolfgang Lezius (http://morphy.wolfganglezius.de), with extensions and
+corrections by Julian von Heyl (https://www.korrekturen.de/flexion/) and Daniel Naber. See
+licenses/dictionaries/german-pos-dict-README.txt. The adapted German tagger and synthesizer data
+(de/tagger.bin, de/synth.bin) are shared under the same licence.
+
+German Hunspell dictionary de_DE (igerman98, frami extension)
+-------------------------------------------------------------
+Source:   shipped in LanguageTool v6.8 under
+          languagetool-language-modules/de/src/main/resources/org/languagetool/resource/de/hunspell/
+          upstream https://www.j3e.de/ispell/igerman98/ and
+          https://extensions.libreoffice.org/extensions/german-de-de-frami-dictionaries
+License:  GNU General Public License, version 2 or 3 (licenses/GPL-2.0.txt, licenses/GPL-3.0.txt)
+Base dictionary by Björn Jacke, extension by Franz Michael Baumann. LanguageTool's de_DE.dict adds
+Jan Schreiber's German word list (https://sourceforge.net/projects/germandict/, public domain).
+See licenses/dictionaries/de_DE_frami_README.txt and de_DE.README.txt.
+
+jWordSplitter 4.7 (de.danielnaber:jwordsplitter)
+------------------------------------------------
+Source:   https://github.com/danielnaber/jwordsplitter (tag v4.7)
+License:  Apache License 2.0 (licenses/Apache-2.0.txt)
+By Daniel Naber and Sven Abels. Used: the German word list and exception splits.
+
+Apache OpenNLP 1.5 models (edu.washington.cs.knowitall:opennlp-{tokenize,postag,chunk}-models)
+-----------------------------------------------------------------------------------------------
+Source:   http://opennlp.sourceforge.net/models-1.5/
+License:  Apache License 2.0 (licenses/Apache-2.0.txt)
+Copyright The Apache Software Foundation. Used: en-token.bin, en-pos-maxent.bin, en-chunker.bin.
