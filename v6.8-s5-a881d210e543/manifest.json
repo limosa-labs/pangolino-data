@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 5,
+  "pangolinoVersion": "0.1.0",
+  "ltVersion": "v6.8",
+  "compression": "gzip",
+  "files": [
+    {
+      "path": "en/analysis.bin.gz",
+      "asset": "en-analysis.bin.gz",
+      "sha256": "8b3b4a9f741cb63ca5efbd188687a182e21614918349024f14c58ac60d3d23e9",
+      "size": 1347271,
+      "rawSize": 2983814,
+      "group": "spelling"
+    },
+    {
+      "path": "en/tagger.bin.gz",
+      "asset": "en-tagger.bin.gz",
+      "sha256": "788b089e01dd12f2103cbb0ee71173870f306a890b58500cad5c1c2d0de42bac",
+      "size": 1809066,
+      "rawSize": 3869211,
+      "group": "spelling"
+    },
+    {
+      "path": "en/speller.bin.gz",
+      "asset": "en-speller.bin.gz",
+      "sha256": "6df708859ba68c40e077658f24a1fecf70ced761b27aaeeed6c3604952763103",
+      "size": 1789915,
+      "rawSize": 2680721,
+      "group": "spelling"
+    },
+    {
+      "path": "en/messages.json.gz",
+      "asset": "en-messages.json.gz",
+      "sha256": "2bd212ffcb5453469c148ffe7e1e48cc22ec665c1cfe617e6df8315904cffefa",
+      "size": 5282,
+      "rawSize": 16492,
+      "group": "spelling"
+    },
+    {
+      "path": "en/disambig.bin.gz",
+      "asset": "en-disambig.bin.gz",
+      "sha256": "7132551e4ef7fa6de83312caffe64d9d36ac508fb23d42732193559569a31679",
+      "size": 59995,
+      "rawSize": 241738,
+      "group": "grammar"
+    },
+    {
+      "path": "en/chunker.bin.gz",
+      "asset": "en-chunker.bin.gz",
+      "sha256": "8c1d74479bf715175eda570efca99e365cf6bf55f48a8c33838c07dc233607c6",
+      "size": 10466480,
+      "rawSize": 16163891,
+      "group": "grammar"
+    },
+    {
+      "path": "en/grammar.bin.gz",
+      "asset": "en-grammar.bin.gz",
+      "sha256": "1092cc9d9ca95be8b787e7ba580d688c71c0085d0b1676cc2473b5dd73f23b71",
+      "size": 755249,
+      "rawSize": 6253006,
+      "group": "grammar"
+    },
+    {
+      "path": "en/synth.bin.gz",
+      "asset": "en-synth.bin.gz",
+      "sha256": "295024d3902996fc72efd31683ad2d9d4bb03ae36ff67ac169d14f07b513c7ac",
+      "size": 874793,
+      "rawSize": 1718895,
+      "group": "grammar"
+    },
+    {
+      "path": "en/rules-data.bin.gz",
+      "asset": "en-rules-data.bin.gz",
+      "sha256": "eba9bf9f9790403f3fdd5cd0ea1d508c32a9606089f92846438a5ba7d9d1bae7",
+      "size": 1013007,
+      "rawSize": 2341640,
+      "group": "grammar"
+    },
+    {
+      "path": "de/analysis.bin.gz",
+      "asset": "de-analysis.bin.gz",
+      "sha256": "8368a209d34814cd1e31bc01eb123644fe673b65f4db9df3dca1ac1d6f34c804",
+      "size": 4288673,
+      "rawSize": 11328748,
+      "group": "spelling"
+    },
+    {
+      "path": "de/tagger.bin.gz",
+      "asset": "de-tagger.bin.gz",
+      "sha256": "e0ebd8b6ad3b03219b21f513c3f1d87abaad6cba8939808030cbb6c50592c837",
+      "size": 12257343,
+      "rawSize": 25945683,
+      "group": "spelling"
+    },
+    {
+      "path": "de/speller.bin.gz",
+      "asset": "de-speller.bin.gz",
+      "sha256": "8ae63d54cdc5e5e282278754059bb39936794b368b6ee833c80feaff7b5c89a1",
+      "size": 9706525,
+      "rawSize": 16929405,
+      "group": "spelling"
+    },
+    {
+      "path": "de/messages.json.gz",
+      "asset": "de-messages.json.gz",
+      "sha256": "61ba24f22ad239dbcc0a41a990da943f7cdeb2b3070e31b8796365b1c5dca83e",
+      "size": 5933,
+      "rawSize": 18028,
+      "group": "spelling"
+    },
+    {
+      "path": "de/disambig.bin.gz",
+      "asset": "de-disambig.bin.gz",
+      "sha256": "ffc3af5bc2f7a637f24e85eb913431a5722a4cc69586e3d08530d0ac1a5b5aaf",
+      "size": 159427,
+      "rawSize": 455353,
+      "group": "grammar"
+    },
+    {
+      "path": "de/grammar.bin.gz",
+      "asset": "de-grammar.bin.gz",
+      "sha256": "d26b0572937edc924e87302768c3c504883ca79541caaa7e73f95fe0e94fd57c",
+      "size": 478796,
+      "rawSize": 3086806,
+      "group": "grammar"
+    },
+    {
+      "path": "de/synth.bin.gz",
+      "asset": "de-synth.bin.gz",
+      "sha256": "a22e48e9d4e6c36a8ba84fda1863a4e29f21fcfa9a991c897e836cae30621147",
+      "size": 1245578,
+      "rawSize": 8367848,
+      "group": "grammar"
+    },
+    {
+      "path": "de/rules-data.bin.gz",
+      "asset": "de-rules-data.bin.gz",
+      "sha256": "886ea3b2fcfc1ce3993fbeced69c7478fc1d9d7cc28d20ad6597faf3fe185d55",
+      "size": 1801880,
+      "rawSize": 4746791,
+      "group": "grammar"
+    }
+  ],
+  "languages": {
+    "en": {
+      "spelling": [
+        "en/analysis.bin.gz",
+        "en/tagger.bin.gz",
+        "en/speller.bin.gz",
+        "en/messages.json.gz"
+      ],
+      "grammar": [
+        "en/disambig.bin.gz",
+        "en/chunker.bin.gz",
+        "en/grammar.bin.gz",
+        "en/synth.bin.gz",
+        "en/rules-data.bin.gz"
+      ],
+      "compressedBytes": 18121058,
+      "rawBytes": 36269408,
+      "budgetBytes": 25000000
+    },
+    "de": {
+      "spelling": [
+        "de/analysis.bin.gz",
+        "de/tagger.bin.gz",
+        "de/speller.bin.gz",
+        "de/messages.json.gz"
+      ],
+      "grammar": [
+        "de/disambig.bin.gz",
+        "de/grammar.bin.gz",
+        "de/synth.bin.gz",
+        "de/rules-data.bin.gz",
+        "en/tagger.bin.gz"
+      ],
+      "compressedBytes": 31753221,
+      "rawBytes": 74747873,
+      "budgetBytes": 40000000
+    }
+  }
+}
